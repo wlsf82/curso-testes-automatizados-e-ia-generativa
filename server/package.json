@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "pw:open": "playwright test --ui"
   },
   "dependencies": {
     "@faker-js/faker": "^9.4.0",
@@ -15,6 +16,8 @@
     "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.4",
     "cypress": "^14.0.3"
   }
 }
