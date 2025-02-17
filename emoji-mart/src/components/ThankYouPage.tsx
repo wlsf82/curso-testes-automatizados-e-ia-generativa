@@ -12,7 +12,7 @@ export function ThankYouPage({ orderNumber, onBackToStore }: ThankYouPageProps) 
       <div className="bg-white p-8 rounded-lg shadow-lg max-w-md w-full text-center">
         <div className="mb-6">
           <div className="mx-auto w-16 h-16 bg-green-100 rounded-full flex items-center justify-center">
-            <CheckMark className="w-8 h-8 text-green-500" />
+            <CheckMark className="w-8 h-8 text-green-500" data-testid="check-icon" />
           </div>
         </div>
         <h1 className="text-2xl font-bold mb-4">Thank You for Your Purchase!</h1>
