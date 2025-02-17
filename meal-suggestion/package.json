@@ -1,0 +1,15 @@
+{
+  "name": "meal-suggestion",
+  "version": "1.0.0",
+  "main": "meals.js",
+  "scripts": {
+    "cy:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "Walmyr <wlsf82@gmail.com> (https://walmyr.dev/)",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.0.3"
+  }
+}
