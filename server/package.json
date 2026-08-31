@@ -4,10 +4,12 @@
   "description": "Express backend",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "cy:open": "cypress open"
   },
   "dependencies": {
     "@faker-js/faker": "^9.4.0",
+    "cypress": "^15.19.0",
     "express": "^4.21.1",
     "lodash": "^4.17.21",
     "swagger-jsdoc": "^6.2.8",
